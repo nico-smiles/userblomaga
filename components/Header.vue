@@ -1,70 +1,25 @@
 <template>
-  <header>
-    <div class="nav">
-      <nav class="widewrap nav_wrap">
-        <a href="https://nicovideo.jp/">ニコニコ</a>
-        <a href="https://site.nicovideo.jp/smiles/">ニコニコ情報調査室SmileS</a>
-        <a href="https://ch.nicovideo.jp/smiles/blomaga">SmileSチャンネルブロマガ</a>
-      </nav>
-    </div>
-    <div class="widewrap">
-       <h1 class="font-weight-bold"><a href="/">SmileSユーザーブロマガ</a></h1>
-    </div>
-  </header>
+  <div id="header">
+    <b-navbar toggleable="lg" type="dark" style="background-color: black;">
+      <b-navbar-brand href="/" class="font-weight-bold">
+        SmileSユーザーブロマガ
+      </b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item-dropdown text="カテゴリ" right>
+            <b-dropdown-item href="/adcal2020">アドベントカレンダー2020</b-dropdown-item>
+          </b-nav-item-dropdown>
+        </b-navbar-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="https://site.nicovideo.jp/smiles/">ニコニコ情報調査室SmileS</b-nav-item>
+          <b-nav-item href="https://ch.nicovideo.jp/smiles/blomaga">チャンネルブロマガ</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
-
-<style lang="scss">
-.widewrap{
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-header{
-  background-color: #333;
-
-  div.nav{
-    background: #252525;
-    text-decoration: none;
-
-    .nav_wrap{
-      display: flex;
-
-      a{
-        color: white;
-        display: block;
-        height: 36px;
-        line-height: 36px;
-        padding: 0 1em;
-        font-size: 12px;
-
-        &:hover{
-          color: white;
-          text-decoration: none;
-          background: #555;
-        }
-      }
-    }
-
-
-  }
-  h1{
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 40px;
-    a{
-      color: #ddd;
-      &:hover{
-        color: white;
-        text-decoration: none;
-      }
-    }
-  }
-}
-</style>

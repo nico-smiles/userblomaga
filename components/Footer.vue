@@ -1,6 +1,8 @@
 <template>
-  <footer>
-
+  <footer class="text-center mb-3">
+    <small>
+      © ニコニコ情報調査室SmileS
+    </small>
   </footer>
 </template>
 
@@ -9,13 +11,3 @@ export default {
 
 }
 </script>
-
-<style lang="scss">
-.widewrap{
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-
-</style>

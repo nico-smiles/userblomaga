@@ -1,9 +1,6 @@
 <template>
   <div class="sidebar">
     <div class="autor">
-      <div class="img_area">
-        TODO アイコン
-      </div>
       <p>SmileSエージェントが執筆したものの、手間の都合でチャンネルブロマガに掲載できなかった記事を公開するサイトです。</p>
     </div>
     <div class="links">

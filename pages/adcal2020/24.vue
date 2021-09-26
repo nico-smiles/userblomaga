@@ -34,8 +34,8 @@ import Sidepanel from "@/components/Sidepanel.vue";
 export default {
   components: { Sidepanel, Footer },
   mixins: [Meta],
-  fetch() {
-    window.onNuxtReady(() => { window.$nuxt.$router.push('https://blog.myutsutaka.com/?p=99') })
+  fetch({ redirect }) {
+    redirect(302, 'https://blog.myutsutaka.com', 'p=99');
   },
   data() {
     return {

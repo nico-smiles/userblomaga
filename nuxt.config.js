@@ -13,16 +13,17 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'description', name: 'description', content: 'SmileSエージェントが執筆したものの、手間の都合でチャンネルブロマガに掲載できなかった記事を公開するサイトです。' },
-      //{ name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:card', content: 'summary' },
       { hid: 'og:site_name', property: 'og:site_name', content: 'SmileSユーザーブロマガ' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://nico-smiles.github.io/userblomaga/' },
       { hid: 'og:title', property: 'og:title', content: 'SmileSユーザーブロマガ' },
       { hid: 'og:description', property: 'og:description', content: 'SmileSエージェントが執筆したものの、手間の都合でチャンネルブロマガに掲載できなかった記事を公開するサイトです。' },
-      //{ hid: 'og:image', property: 'og:image', content: 'https://vcnp.nekozuki.me/img/ogp.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://nico-smiles.github.io/userblomaga/common/1f60e.png' },
+      // Twiemoji: Copyright 2020 Twitter, Inc and other contributors
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/common/1f60e.png' }
     ]
   },
 

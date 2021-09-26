@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/adcal2020/22", {data:[{}],fetch:{},mutations:void 0});

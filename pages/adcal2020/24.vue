@@ -35,7 +35,7 @@ export default {
   components: { Sidepanel, Footer },
   mixins: [Meta],
   fetch({ redirect }) {
-    redirect(302, 'https://blog.myutsutaka.com', 'p=99');
+    redirect(302, 'https://blog.myutsutaka.com/?p=99');
   },
   data() {
     return {

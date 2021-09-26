@@ -20,7 +20,7 @@
             <tbody>
               <tr>
                 <td style="padding:5px; border-bottom: #ccc 1px solid;">2021/09/12</td>
-                <td style="padding:5px; border-bottom: #ccc 1px solid;"><a style="color:#0080ff;" href="/adcal2020" rel="noopener noreferrer">SmileSアドベントカレンダー2020</a></td>
+                <td style="padding:5px; border-bottom: #ccc 1px solid;"><a style="color:#0080ff;" href="adcal2020" rel="noopener noreferrer">SmileSアドベントカレンダー2020</a></td>
               </tr>
             </tbody>
           </table>
